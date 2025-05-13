@@ -13,7 +13,7 @@ class Anagram:
         if isinstance(value, str):
             self._word = value.lower()
         else:
-            print("Word must be a string")
+            raise ValueError("Word must be a string!")
         
 
     
